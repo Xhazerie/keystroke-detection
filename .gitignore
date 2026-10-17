@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large recordings & datasets — kept locally, not tracked (see README "Data")
+sound/*
+!sound/.gitkeep
+data/*
+!data/.gitkeep
+
+# Internal working notes
+HANDOFF.md
+
+# OS / editor
+.DS_Store
+*.swp
